@@ -1,0 +1,17 @@
+{
+  "name": "metaapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.32.0",
+    "axios": "^1.4.0",
+    "cli-table": "^0.3.11",
+    "dotenv": "^16.3.1",
+    "metaapi.cloud-sdk": "^23.5.2",
+    "nodemon": "^3.0.1"
+  }
+}
