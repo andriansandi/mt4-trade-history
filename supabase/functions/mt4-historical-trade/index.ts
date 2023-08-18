@@ -4,6 +4,11 @@ import * as mod from "https://deno.land/std@0.192.0/uuid/mod.ts";
 import axiod from "https://deno.land/x/axiod/mod.ts";
 import moment from "https://deno.land/x/momentjs@2.29.1-deno/mod.ts";
 
+
+async function getDataFromMetaApi() {
+  
+}
+
 serve(async (server) => {
   return new Response("Maho");
 });
